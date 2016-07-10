@@ -1,4 +1,4 @@
 {
-  "plugins": ["transform-runtime"],
+  "plugins": ["transform-runtime", "react-relay"],
   "presets": ["es2015", "es2017", "stage-0", "react"]
 }

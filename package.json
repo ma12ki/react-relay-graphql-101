@@ -20,15 +20,22 @@
   "dependencies": {
     "babel-core": "^6.10.4",
     "babel-loader": "^6.2.4",
+    "babel-plugin-react-relay": "^0.9.0",
     "babel-plugin-transform-runtime": "^6.9.0",
     "babel-preset-es2015": "^6.9.0",
     "babel-preset-es2017": "^1.4.0",
     "babel-preset-react": "^6.11.1",
     "babel-preset-stage-0": "^6.5.0",
+    "babel-relay-plugin": "^0.9.1",
+    "graphql": "^0.6.1",
+    "graphqlhub-schemas": "^0.1.0",
     "html-webpack-plugin": "^2.22.0",
     "react": "^15.2.1",
     "react-dom": "^15.2.1",
+    "react-relay": "^0.9.1",
+    "sync-request": "^3.0.1",
     "webpack": "^1.13.1",
     "webpack-dev-server": "^1.14.1"
-  }
+  },
+  "react-relay-schema": "./src/graphql-schemas/hacker-news.schema.js"
 }
