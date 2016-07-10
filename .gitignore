@@ -8,6 +8,7 @@ typings
 .settings
 *.log
 build
+index.bundle.js
 
 # sublime
 *.sublime-project
